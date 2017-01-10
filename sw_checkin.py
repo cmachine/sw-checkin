@@ -25,4 +25,4 @@ def check(num,fname,lname):
     checkIn = browser.find_element_by_xpath('//*[@id="printDocumentsButton"]')
     checkIn.click()
 
-check('RLMQOS','Colin','Socha')
+check('ConfNumber','FirstName','LastName')
